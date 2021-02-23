@@ -10,7 +10,7 @@ import {Recipe} from "./pages/Recipe";
 
 function App() {
   return <>
-    <Router>
+    <Router basename="/food-shop">
       <Header />
       <main className="container content">
           <Switch>
